@@ -1,0 +1,42 @@
+RESUMEN DEL DATASET: Iris transformado
+Generado: 2026-10-25 15:56
+============================================================
+
+1. DIMENSIONES
+Filas: 118
+Columnas: 6
+
+2. COLUMNAS Y TIPOS DE DATOS
+largo_sepalo    float64
+ancho_sepalo    float64
+largo_petalo    float64
+ancho_petalo    float64
+especie             str
+area_petalo     float64
+
+3. VALORES NULOS POR COLUMNA
+largo_sepalo    0
+ancho_sepalo    0
+largo_petalo    0
+ancho_petalo    0
+especie         0
+area_petalo     0
+Total de valores nulos: 0
+
+4. ESTADÍSTICAS DESCRIPTIVAS (columnas numéricas)
+       largo_sepalo  ancho_sepalo  largo_petalo  ancho_petalo  area_petalo
+count        118.00        118.00        118.00        118.00       118.00
+mean           6.13          3.05          4.32          1.43         7.14
+std            0.69          0.45          1.53          0.67         4.37
+min            5.10          2.20          1.20          0.10         0.15
+25%            5.60          2.80          3.92          1.20         4.68
+50%            6.10          3.00          4.70          1.50         6.75
+75%            6.57          3.30          5.38          1.90        10.35
+max            7.90          4.40          6.90          2.50        15.87
+
+5. COLUMNAS CATEGÓRICAS (valores más frecuentes)
+[especie] - 3 valores únicos
+especie
+Iris-virginica     49
+Iris-versicolor    47
+Iris-setosa        22
